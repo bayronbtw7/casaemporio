@@ -85,7 +85,7 @@ setInterval(() => {
 
 next();
 
-}, 4000);
+}, 2200);
 
 
 /* SCROLL REVEAL */
