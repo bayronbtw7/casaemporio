@@ -1121,28 +1121,25 @@ padding:4px 6px;
   cursor:pointer;
 }
 
-/* móvil */
-@media (max-width:768px){
+}
+@media (max-width: 768px){
+
+  .header{
+    padding:5px 15px;
+  }
+
+  .logo{
+    height:50px;
+  }
 
   .navbar{
-    display:none;
-    position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
-    background:white;
-    flex-direction:column;
-    padding:10px 0;
+    gap:10px;
   }
 
-  .navbar.active{
-    display:flex;
+  .navbar a{
+    font-size:14px;
+    padding:6px 10px;
   }
 
-  .menu-toggle{
-    display:block;
-  }
-
-}
 }
 }
