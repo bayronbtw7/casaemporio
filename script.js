@@ -13,11 +13,6 @@ let angle = 0;
 let currentIndex = 0;
 
 
-document.querySelector('.menu-toggle')
-  .addEventListener('click', ()=>{
-    document.querySelector('.navbar')
-      .classList.toggle('active');
-  });
 
 /* POSICIÓN INICIAL */
 
