@@ -1122,24 +1122,4 @@ padding:4px 6px;
 }
 
 }
-@media (max-width: 768px){
-
-  .header{
-    padding:5px 15px;
-  }
-
-  .logo{
-    height:50px;
-  }
-
-  .navbar{
-    gap:10px;
-  }
-
-  .navbar a{
-    font-size:14px;
-    padding:6px 10px;
-  }
-
-}
 }
