@@ -1113,17 +1113,36 @@ flex-wrap:wrap;
 font-size:14px;
 padding:4px 6px;
 }
-/* Estilo normal (PC) */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.menu-toggle{
+  display:none;
+  font-size:24px;
+  background:none;
+  border:none;
+  cursor:pointer;
 }
 
-/* En móviles */
-@media (max-width: 768px) {
-  header {
-    position: static; /* deja de ser fijo */
+/* móvil */
+@media (max-width:768px){
+
+  .navbar{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:white;
+    flex-direction:column;
+    padding:10px 0;
   }
+
+  .navbar.active{
+    display:flex;
+  }
+
+  .menu-toggle{
+    display:block;
+  }
+
+}
 }
 }
