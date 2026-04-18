@@ -1113,5 +1113,17 @@ flex-wrap:wrap;
 font-size:14px;
 padding:4px 6px;
 }
+/* Estilo normal (PC) */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+/* En móviles */
+@media (max-width: 768px) {
+  header {
+    position: static; /* deja de ser fijo */
+  }
+}
 }
